@@ -6,14 +6,14 @@
 <p align="center">
 <img src="https://files.catbox.moe/e72obf.jpeg"/>       
 <p align="center">
-  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=EB+Garamond&weight=800&size=28&duration=4000&pause=1000&random=false&width=435&lines=+•__I'M+⎝⎝ᴰᴬᴺᴳᴱᴿ𖡻ʙᴏʏ𖧹+ᴹᴰ⎠⎠__•;MULTI-DEVICE+WHATSAPP+BOT;DEVELOPED+BY+DANGER+BOY;RELEASED+DATE+04%2F11%2F2024." alt="Typing SVG" /></a>
+  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=EB+Garamond&weight=800&size=28&duration=4000&pause=1000&random=false&width=435&lines=+•__⎝⎝ᴰᴬᴺᴳᴱᴿ𖡻ʙᴏʏ𖧹+ᴹᴰ⎠⎠__•;MULTI-DEVICE+WHATSAPP+BOT;DEVELOPED+BY+DANGER+BOY;RELEASED+DATE+04%2F11%2F2024." alt="Typing SVG" /></a>
 </p> 
 <p align="center">
 <a href="#"><img title="Creator" src="https://img.shields.io/badge/Creator-DANGER_BOY-red.svg?style=for-the-badge&logo=github"></a>
 
 </p>
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a><a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
-#
+
 
 ## ⎝⎝ᴰᴬᴺᴳᴱᴿ𖡻ʙᴏʏ𖧹ᴹᴰ⎠⎠ Deployment Methods
 ---
@@ -38,18 +38,18 @@
 # 
 ⎝⎝ᴰᴬᴺᴳᴱᴿ𖡻ʙᴏʏ𖧹ᴹᴰ⎠⎠ ɪs ᴀ ᴇᴀsʏ ᴛᴏ ᴜsᴇ ᴡʜᴀᴛsᴀᴘᴘ ʙᴏᴛ. 
 
-      ⎝⎝ᴰᴬᴺᴳᴱᴿ𖡻ʙᴏʏ𖧹ᴹᴰ⎠⎠ ᴡʜᴀᴛsᴀᴘᴘ ʙᴏᴛ ɪs ᴀɴ ᴇᴀsʏ ᴛᴏ ᴜsᴇ ᴡʜᴀᴛsᴀᴘᴘ ʀᴏʙᴏᴛ
+      ⎝⎝ᴰᴬᴺᴳᴱᴿ𖡻ʙᴏʏ𖧹ᴹᴰ⎠⎠ WHATSAPP BOT IS AN EASY TO USE WHATSAPP ROBOT
 # 
 # 
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a><a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 
-      ⚠️ ᴡᴇ ᴀʀᴇ ɴᴏᴛ ʀᴇsᴘᴏɴsɪʙʟᴇ ғᴏʀ ᴀɴʏ ɪɴᴄᴏɴᴠᴇɴɪᴇɴᴄᴇ ᴄᴀᴜsᴇᴅ ʙʏ ʏᴏᴜʀ ᴍɪsᴛᴀᴋᴇs!
+      ⚠️ We Are Not Responsible For Any Inconvenience Caused By Your Mistakes!
   
 ## 
 
-- *⎝⎝ᴰᴬᴺᴳᴱᴿ𖡻ʙᴏʏ𖧹ᴹᴰ⎠⎠ ɪs ɴᴏᴛ ᴍᴀᴅᴇ ʙʏ `ᴡʜᴀᴛsᴀᴘᴘ ɪɴᴄ.` sᴏᴍᴇᴛɪᴍᴇs ᴏʀ ᴍɪsᴜsɪɴɢ ᴛʜᴇ ʙᴏᴛ ᴍɪɢʜᴛ `ʙᴀɴ` ʏᴏᴜʀ `ᴡʜᴀᴛsᴀᴘᴘ ᴀᴄᴄᴏᴜɴᴛ!`*
-- *ɪɴ ᴛʜᴀᴛ ᴄᴀsᴇ, ɪ'ᴍ ɴᴏᴛ ʀᴇsᴘᴏɴsɪʙʟᴇ ғᴏʀ ʙᴀɴɴɪɴɢ ʏᴏᴜʀ ᴀᴄᴄᴏᴜɴᴛ.*
-- *ᴜsᴇ ⎝⎝ᴰᴬᴺᴳᴱᴿ𖡻ʙᴏʏ𖧹ᴹᴰ⎠⎠ ᴀᴛ ʏᴏᴜʀ ᴏᴡɴ ʀɪsᴋ ʙʏ ᴋᴇᴇᴘɪɴɢ ᴛʜɪs ᴡᴀʀɴɪɴɢ ɪɴ ᴍɪɴᴅ.*
+- *⎝⎝ᴰᴬᴺᴳᴱᴿ𖡻ʙᴏʏ𖧹ᴹᴰ⎠⎠ is not made by `WhatsApp Inc.` Sometimes or misusing the bot might `ban` your `WhatsApp account!`*
+- *In that case, I'm not responsible for banning your account.*
+- *Use ⎝⎝ᴰᴬᴺᴳᴱᴿ𖡻ʙᴏʏ𖧹ᴹᴰ⎠⎠ at your own risk by keeping this warning in mind.*
   
   #### ```TOTAL PROFILE VIEWS 🧚```
 ![Visitor Count](https://profile-counter.glitch.me/DeeCeeXxx/count.svg)
