@@ -30,17 +30,16 @@
  <br> 
 <p align="center">
 <a href="https://wa.me/2349066528353"><img src="https://img.shields.io/badge/Contact David-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
-<a href="https://whatsapp.com/channel/0029VaZsyQ21XqudOTjyG30Z"><img src="https://img.shields.io/badge/Join Official Channel-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
-<a href="https://www.youtube.com/@HacktivistHive"><img src="https://img.shields.io/badge/Subscribe-ff0000?style=for-the-badge&logo=youtube&logoColor=ff000000&link=https://www.youtube.com/@HacktivistHive" /><br>
 <p align="center">
 <img alt="Development" width="250" src="https://media2.giphy.com/media/W9tBvzTXkQopi/giphy.gif?cid=6c09b952xu6syi1fyqfyc04wcfk0qvqe8fd7sop136zxfjyn&ep=v1_internal_gif_by_id&rid=giphy.gif&ct=g" /> </p>
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a><a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
-# 
+
+
 ⎝⎝ᴰᴬᴺᴳᴱᴿ𖡻ʙᴏʏ𖧹ᴹᴰ⎠⎠ ɪs ᴀ ᴇᴀsʏ ᴛᴏ ᴜsᴇ ᴡʜᴀᴛsᴀᴘᴘ ʙᴏᴛ. 
 
-      ⎝⎝ᴰᴬᴺᴳᴱᴿ𖡻ʙᴏʏ𖧹ᴹᴰ⎠⎠ WHATSAPP BOT IS AN EASY TO USE WHATSAPP ROBOT
-# 
-# 
+      DANGER-BOY𖧹MD Whatsapp Bot Is An Easy To Use Whatsapp Robot
+
+
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a><a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 
       ⚠️ We Are Not Responsible For Any Inconvenience Caused By Your Mistakes!
@@ -50,9 +49,7 @@
 - *⎝⎝ᴰᴬᴺᴳᴱᴿ𖡻ʙᴏʏ𖧹ᴹᴰ⎠⎠ is not made by `WhatsApp Inc.` Sometimes or misusing the bot might `ban` your `WhatsApp account!`*
 - *In that case, I'm not responsible for banning your account.*
 - *Use ⎝⎝ᴰᴬᴺᴳᴱᴿ𖡻ʙᴏʏ𖧹ᴹᴰ⎠⎠ at your own risk by keeping this warning in mind.*
-  
-  #### ```TOTAL PROFILE VIEWS 🧚```
-![Visitor Count](https://profile-counter.glitch.me/DeeCeeXxx/count.svg)
+
 
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a><a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 
@@ -61,3 +58,4 @@
 <b>Version -> 1.0.0</b>
 
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a><a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
+￼Enter
