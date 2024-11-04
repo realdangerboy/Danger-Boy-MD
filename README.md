@@ -1,5 +1,5 @@
   # ⎝⎝ᴰᴬᴺᴳᴱᴿ𖡻ʙᴏʏ𖧹ᴹᴰ⎠⎠
-   <a><img src='https://imgur.com/2gh1hP9'/></a><a><img src='https://imgur.com/2gh1hP9.gif'/></a>
+   <a><img src='https://imgur.com/2gh1hP9.gif'/></a><a><img src='https://imgur.com/2gh1hP9.gif'/></a>
 <p align="center"> 
 <u>⚡ ᴀ sɪᴍᴘʟᴇ ᴡʜᴀᴛsᴀᴘᴘ ᴜsᴇʀ ʙᴏᴛ ᴄᴏᴅᴇᴅ ʙʏ Dᴬᴺᴳᴱᴿ Bᴼᵞ 😈 ⚡</u>
 </p>
