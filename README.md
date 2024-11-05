@@ -12,7 +12,7 @@
 <a href="#"><img title="Creator" src="https://img.shields.io/badge/Creator-DANGER_BOY-red.svg?style=for-the-badge&logo=github"></a>
 
 </p>
-<a><img src='https://i.imgur.com/LyHic3i.gif'/></a><a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
+<a><img src='https://i.imgur.com/nDiRyUL.gif'/></a><a><img src='https://i.imgur.com/nDiRyUL.gif'/></a>
 
 
 ## ⎝⎝ᴰᴬᴺᴳᴱᴿ𖡻ʙᴏʏ𖧹ᴹᴰ⎠⎠ Deployment Methods
@@ -23,7 +23,7 @@
 3. **Deploy on [`HEROKU`](https://dashboard.heroku.com/new?template=https://github.com/Danger-Boy-MD/Danger-Boy-MD)**
 9. **All Tutorials Are `COMING SOON`**
 
-<a><img src='https://i.imgur.com/LyHic3i.gif'/></a><a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
+<a><img src='https://i.imgur.com/nDiRyUL.gif'/></a><a><img src='https://i.imgur.com/nDiRyUL.gif'/></a>
 
 <img src="https://github.com/0xAbdulKhalid/0xAbdulKhalid/raw/main/assets/mdImages/handshake.gif" width ="80"></h1> 
  <br> 
