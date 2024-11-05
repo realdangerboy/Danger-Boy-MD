@@ -37,7 +37,7 @@
       DANGER-BOY𖧹MD Whatsapp Bot Is An Easy To Use Whatsapp Robot
 
 
-<a><img src='https://i.imgur.com/LyHic3i.gif'/></a><a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
+<a><img src='https://i.imgur.com/nDiRyUL.gif'/></a><a><img src='https://i.imgur.com/nDiRyUL.gif'/></a>
 
       ⚠️ We Are Not Responsible For Any Inconvenience Caused By Your Mistakes!
   
@@ -48,11 +48,11 @@
 - *Use ⎝⎝ᴰᴬᴺᴳᴱᴿ𖡻ʙᴏʏ𖧹ᴹᴰ⎠⎠ at your own risk by keeping this warning in mind.*
 
 
-<a><img src='https://i.imgur.com/LyHic3i.gif'/></a><a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
+<a><img src='https://i.imgur.com/nDiRyUL.gif'/></a><a><img src='https://i.imgur.com/nDiRyUL.gif'/></a>
 
 
 ### Please Give One Star ✨ & [follow me notify my updates 💗](https://github.com/Danger-Boy-MD)
 <b>Version -> 1.0.0</b>
 
-<a><img src='https://i.imgur.com/LyHic3i.gif'/></a><a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
+<a><img src='https://i.imgur.com/nDiRyUL.gif'/></a><a><img src='https://i.imgur.com/nDiRyUL.gif'/></a>
 
