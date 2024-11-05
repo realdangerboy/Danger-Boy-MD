@@ -1,4 +1,4 @@
-const { zokou } = require("../framework/zokou");
+const { danger } = require("../framework/danger");
 
 const {getAllSudoNumbers,isSudoTableNotEmpty} = require("../bdd/sudo")
 
@@ -6,7 +6,7 @@ const conf = require("../set");
 
 
 
-zokou({ nomCom: "David", categorie: "General", reaction: "💞" }, async (dest, zk, commandeOptions) => {
+danger({ nomCom: "DANGER_BOY", categorie: "General", reaction: "💞" }, async (dest, zk, commandeOptions) => {
 
     const { ms , mybotpic } = commandeOptions;
 
@@ -104,7 +104,7 @@ zokou({ nomCom: "David", categorie: "General", reaction: "💞" }, async (dest, 
 
 
 
-zokou({ nomCom: "dev", categorie: "General", reaction: "💞" }, async (dest, zk, commandeOptions) => {
+danger({ nomCom: "dev", categorie: "General", reaction: "🔥" }, async (dest, zk, commandeOptions) => {
 
     const { ms, mybotpic } = commandeOptions;
 
@@ -112,14 +112,14 @@ zokou({ nomCom: "dev", categorie: "General", reaction: "💞" }, async (dest, zk
 
     const devs = [
 
-      { nom: "David Cyril", numero: "2349066528353" },
+      { nom: "⎝⎝ᴰᴬᴺᴳᴱᴿ𖡻ʙᴏʏ𖧹ᴹᴰ⎠⎠", numero: "92×××××××××" },
       // Ajoute d'autres développeurs ici avec leur nom et numéro
 
     ];
 
 
 
-    let message = "Yowaimo!!!👋 welcome to *Gojou-MD* ! here is the dev :\n\n";
+    let message = "Hello!!!👋 welcome to *⎝⎝ᴰᴬᴺᴳᴱᴿ𖡻ʙᴏʏ𖧹ᴹᴰ⎠⎠* ! here is the dev :\n\n";
 
     for (const dev of devs) {
 
@@ -181,7 +181,7 @@ else {
 
 
 
-zokou({ nomCom: "support", categorie: "General" }, async (dest, zk, commandeOptions) => {
+danger({ nomCom: "support", categorie: "General" }, async (dest, zk, commandeOptions) => {
 
   const { ms, repondre, auteurMessage, } = commandeOptions; 
 
@@ -189,7 +189,7 @@ zokou({ nomCom: "support", categorie: "General" }, async (dest, zk, commandeOpti
 
   repondre("look on pm sir ")
 
-  await zk.sendMessage(auteurMessage,{text : `https://whatsapp.com/channel/0029VaZsyQ21XqudOTjyG30Z`},{quoted :ms})
+  await zk.sendMessage(auteurMessage,{text : ``},{quoted :ms})
 
 
 
