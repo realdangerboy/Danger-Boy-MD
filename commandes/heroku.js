@@ -1,8 +1,8 @@
-const { zokou } = require('../framework/zokou');
+const { danger } = require('../framework/danger');
 const s = require('../set')
 
 
-zokou(
+danger(
     {
         nomCom : "setvar",
         categorie : "heroku vars"
@@ -11,7 +11,7 @@ zokou(
        const {ms,repondre,superUser , arg} = commandeOptions ;
        
        if(!superUser){repondre('only Mods can use this commande');return};
-       if(!arg[0] || !(arg.join('').split('='))) {repondre('Bad format ; Exemple of using :\nSetvar OWNER_NAME=David');return};
+       if(!arg[0] || !(arg.join('').split('='))) {repondre('Bad format ; Exemple of using :\nSetvar OWNER_NAME=Danger Boy');return};
      
     const text = arg.join(" ")
      const Heroku = require("heroku-client");
@@ -30,7 +30,7 @@ zokou(
     }
 );
 
-zokou(
+danger(
     {
         nomCom : "getallvar",
         categorie : "heroku vars"
@@ -48,7 +48,7 @@ zokou(
 			let baseURI = "/apps/" + s.HEROKU_APP_NAME;
 
             let h = await heroku.get(baseURI+'/config-vars')
-let str = '*Gojou-MD All Vars*\n\n'
+let str = '*⎝⎝ᴰᴬᴺᴳᴱᴿ𖡻ʙᴏʏ𖧹ᴹᴰ⎠⎠ All Vars*\n\n'
 for (vr in h) {
 str+= '☉ *'+vr+'* '+'= '+h[vr]+'\n'
 }
@@ -60,7 +60,7 @@ str+= '☉ *'+vr+'* '+'= '+h[vr]+'\n'
 );       
 
 
-    zokou(
+    danger(
         {
             nomCom : "getvar",
             categorie : "heroku vars"
