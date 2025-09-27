@@ -1,69 +1,88 @@
-// Danger-Boy-MD starter (minimal event loop)
-const { default: makeWASocket, useMultiFileAuthState, DisconnectReason } = require('@whiskeysockets/baileys')
-const pino = require('pino')
-const fs = require('fs')
-const path = require('path')
+const express = require("express");
+const qrcode = require("qrcode");
+const bodyParser = require("body-parser");
+const {
+  default: makeWASocket,
+  useMultiFileAuthState,
+  fetchLatestBaileysVersion
+} = require("@whiskeysockets/baileys");
 
-async function start() {
-  const { state, saveCreds } = await useMultiFileAuthState(path.join(__dirname, 'session'))
+async function startBot() {
+  const { state, saveCreds } = await useMultiFileAuthState("session");
+  const { version } = await fetchLatestBaileysVersion();
+
+  // 🔑 Create WhatsApp connection
   const sock = makeWASocket({
-    logger: pino({ level: 'silent' }),
-    printQRInTerminal: true,
-    auth: state
-  })
+    version,
+    auth: state,
+    printQRInTerminal: true
+  });
 
-  // load plugins
-  const pluginsDir = path.join(__dirname, 'plugins')
-  let pluginMap = {}
-  for (const f of fs.readdirSync(pluginsDir).filter(x => x.endsWith('.js'))) {
-    try {
-      const p = require(path.join(pluginsDir, f))
-      if (p && p.name) pluginMap[p.name] = p
-    } catch (e) { console.error('Failed load plugin', f, e) }
-  }
-  console.log('Loaded plugins:', Object.keys(pluginMap).length)
+  sock.ev.on("creds.update", saveCreds);
 
-  sock.ev.on('messages.upsert', async m => {
-    try {
-      const msg = m.messages[0]
-      if (!msg.message) return
-      const text = (msg.message.conversation || (msg.message.extendedTextMessage && msg.message.extendedTextMessage.text) || '').trim()
-      if (!text) return
-
-      // command prefix '.'
-      if (!text.startsWith('.')) return
-      const args = text.split(' ').slice(1)
-      const cmd = text.split(' ')[0].slice(1).toLowerCase()
-
-      // context helpers
-      const isGroup = msg.key.remoteJid && msg.key.remoteJid.endsWith('@g.us')
-      const isAdmin = false // plugin can check via sock.groupMetadata; simplified here
-
-      // find plugin by command
-      for (let name in pluginMap) {
-        const p = pluginMap[name]
-        if (p.command && p.command.includes(cmd)) {
-          try {
-            await p.handler(sock, msg.key.remoteJid, args, msg, { isGroup, isAdmin })
-          } catch (e) { console.error('plugin handler error', p.name, e) }
-          break
-        }
-      }
-    } catch (e) { console.error(e) }
-  })
-
-  sock.ev.on('creds.update', saveCreds)
-
-  sock.ev.on('connection.update', (update) => {
-    const { connection, lastDisconnect } = update
-    if (connection === 'close') {
-      const reason = (lastDisconnect.error && lastDisconnect.error.output) ? lastDisconnect.error.output.statusCode : null
-      console.log('connection closed', reason)
+  // ✅ When connection is ready, bot will start
+  sock.ev.on("connection.update", (update) => {
+    if (update.connection === "open") {
+      console.log("✅ WhatsApp connected!");
+      // 👉 Here you can start bot commands / features
     }
-    if (connection === 'open') console.log('Connected')
-  })
+  });
 
-  console.log('⚡ Danger-Boy-MD started (minimal)')
+  // 🚀 Web server for session
+  const app = express();
+  app.use(bodyParser.urlencoded({ extended: true }));
+
+  // Homepage
+  app.get("/", (req, res) => {
+    res.send(`
+      <h1>⚡ Danger-Boy-MD Session Generator ⚡</h1>
+      <ul>
+        <li><a href="/session-qr">Get Session via QR</a></li>
+        <li><a href="/session-pairing">Get Session via Pairing Code</a></li>
+      </ul>
+    `);
+  });
+
+  // QR route
+  app.get("/session-qr", (req, res) => {
+    sock.ev.on("connection.update", (update) => {
+      if (update.qr) {
+        qrcode.toDataURL(update.qr, (err, url) => {
+          res.send(`<h2>Scan this QR to log in</h2><img src="${url}" />`);
+        });
+      }
+      if (update.connection === "open") {
+        res.send("<h2>✅ Session created! Bot is now running 🚀</h2>");
+      }
+    });
+  });
+
+  // Pairing code input
+  app.get("/session-pairing", (req, res) => {
+    res.send(`
+      <h2>Enter your WhatsApp number (with country code):</h2>
+      <form method="POST" action="/session-pairing">
+        <input type="text" name="phone" placeholder="e.g. 447123456789" required>
+        <button type="submit">Get Pairing Code</button>
+      </form>
+    `);
+  });
+
+  // Generate pairing code
+  app.post("/session-pairing", async (req, res) => {
+    const phoneNumber = req.body.phone;
+    try {
+      const code = await sock.requestPairingCode(phoneNumber);
+      res.send(`<h2>📱 Pairing Code for ${phoneNumber}: <b>${code}</b></h2><p>Bot will auto-start after login ✅</p>`);
+    } catch (e) {
+      res.send(`<p>Error: ${e.message}</p>`);
+    }
+  });
+
+  const PORT = process.env.PORT || 3000;
+  app.listen(PORT, () =>
+    console.log(`🌍 Session web running on http://localhost:${PORT}`)
+  );
 }
 
-start().catch(console.error)
+startBot();
