@@ -1,0 +1,2 @@
+module.exports={ name:'revoke', description:'Revoke group invite link', command:['revoke'], category:'group',
+ handler: async (sock, chat)=>{ try{ const res = await sock.groupRevokeInvite(chat); await sock.sendMessage(chat,{text:`✔ Link revoked. New: https://chat.whatsapp.com/${res}`}) }catch(e){ console.error(e); await sock.sendMessage(chat,{text:'⚠ Failed'}) } } }

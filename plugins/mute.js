@@ -1,0 +1,2 @@
+module.exports={ name:'mute', description:'Mute group (placeholder)', command:['mute'], category:'group',
+ handler: async (sock, chat) => { await sock.sendMessage(chat,{text:'✦ Mute placeholder (implement per group via settings).'}) } }

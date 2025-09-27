@@ -1,0 +1,2 @@
+module.exports={ name:'sticker', description:'Make sticker from image/video', command:['sticker','s'], category:'tools',
+ handler: async (sock, chat, args, msg)=>{ try{ const quoted = msg.message?.extendedTextMessage?.contextInfo?.quotedMessage; if(!quoted) return sock.sendMessage(chat,{text:'Reply to image/video with .sticker'}); await sock.sendMessage(chat,{ sticker: quoted.imageMessage || quoted.videoMessage }) }catch(e){ console.error(e); await sock.sendMessage(chat,{text:'⚠ Failed to make sticker'}) } } }

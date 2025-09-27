@@ -1,0 +1,2 @@
+const axios=require('axios'); module.exports={ name:'play', description:'Play music from YouTube', command:['play'], category:'download',
+ handler: async (sock, chat, args)=>{ if(!args[0]) return sock.sendMessage(chat,{text:'Usage: .play <query>'}); const q=args.join(' '); await sock.sendMessage(chat,{text:`Searching: ${q}`}); return sock.sendMessage(chat,{text:'✦ This is a stub. Integrate yt-dlp / youtube API for full functionality.'}) } }

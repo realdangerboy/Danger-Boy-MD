@@ -1,0 +1,2 @@
+module.exports={ name:'invite', description:'Invite a user to the group', command:['invite'], category:'group',
+ handler: async (sock, chat, args)=>{ if(!args[0]) return sock.sendMessage(chat,{text:'Usage: .invite <number>'}); const num = args[0].replace(/[^0-9]/g,''); const jid = num+'@s.whatsapp.net'; await sock.groupParticipantsUpdate(chat,[jid],'add'); await sock.sendMessage(chat,{text:`✔ Invited ${jid}`}) } }
