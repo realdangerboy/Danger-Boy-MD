@@ -1,0 +1,28 @@
+{
+  "name": "danger-boy-md",
+  "version": "1.0.0",
+  "description": "💀 DANGER-BOY-MD - A Powerful WhatsApp Multi-Device Bot Created by Danger Boy",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "whatsapp-bot",
+    "baileys",
+    "danger-boy-md",
+    "multi-device",
+    "bot"
+  ],
+  "author": "Danger Boy",
+  "license": "MIT",
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.6.0",
+    "dotenv": "^16.3.1",
+    "pino": "^8.17.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
