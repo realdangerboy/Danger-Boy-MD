@@ -1,3 +1,0 @@
-const ytdlp=require('yt-dlp-exec'); const fs=require('fs'), path=require('path'), os=require('os');
-function tempfile(){ return path.join(os.tmpdir(), `dby_tiktok_${Date.now()}.mp4`) }
-module.exports={ name:'gettiktok', command:['gettiktok'], handler: async (sock, chat, args)=>{ try{ const url=decodeURIComponent(args[0]); const fmt=args[1]; const out=tempfile(); await ytdlp(url,{f:fmt, output:out, merge_output_format:'mp4', noPlaylist:true}); if(fs.existsSync(out)) { await sock.sendMessage(chat,{ video: fs.createReadStream(out), mimetype:'video/mp4' }); fs.unlinkSync(out) } else await sock.sendMessage(chat,{text:'❌ Failed to download.'}) }catch(e){ console.error(e); await sock.sendMessage(chat,{text:'⚠ Could not download selected quality.'}) } } }

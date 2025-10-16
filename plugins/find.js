@@ -1,2 +1,0 @@
-module.exports={ name:'find', description:'Simple find/play stub', command:['find'], category:'fun',
- handler: async (sock, chat,args)=>{ await sock.sendMessage(chat,{text:'✦ This is a stub for find/play features. Integrate search APIs for full features.'}) } }

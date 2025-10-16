@@ -1,3 +1,0 @@
-const fs=require('fs'), path=require('path'); const db=path.join(__dirname,'../database/warns.json'); let W={}; if(fs.existsSync(db)) W=JSON.parse(fs.readFileSync(db))
-module.exports={ name:'warn', description:'Warn a user', command:['warn'], category:'group',
- handler: async (sock, chat, args, msg)=>{ const ctx=msg.message?.extendedTextMessage?.contextInfo; const user=ctx?.participant || args[0]; if(!user) return sock.sendMessage(chat,{text:'Reply or .warn <jid>'}); W[user]= (W[user]||0)+1; fs.writeFileSync(db,JSON.stringify(W,null,2)); await sock.sendMessage(chat,{text:`⚠ @${user.split('@')[0]} warned (${W[user]})`, mentions:[user]}) } }

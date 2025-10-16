@@ -1,2 +1,0 @@
-module.exports={ name:'leave', description:'Leave the group', command:['leave'], category:'group',
- handler: async (sock, chat)=>{ try{ await sock.sendMessage(chat,{text:'✦ Leaving group...'}); await sock.groupLeave(chat) }catch(e){ console.error(e); await sock.sendMessage(chat,{text:'⚠ Failed to leave'}) } } }

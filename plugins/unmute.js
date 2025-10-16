@@ -1,2 +1,0 @@
-module.exports={ name:'unmute', description:'Unmute group (placeholder)', command:['unmute'], category:'group',
- handler: async (sock, chat) => { await sock.sendMessage(chat,{text:'✦ Unmute placeholder.'}) } }
